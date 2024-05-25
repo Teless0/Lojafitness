@@ -1,0 +1,245 @@
+body {
+    background-color: #f5f5f5;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+header {
+    background-color: #fe7343;
+    padding: 0;
+    height: 120px;
+    position: relative;
+    width: 100%;
+    top: 0; /* Mover o cabeçalho para o topo */
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top-left {
+    position: absolute;
+    top: 10px; /* Ajustar a distância do elemento superior */
+    left: 10px; /* Ajustar a distância da borda esquerda */
+    color: #020202;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.subtext {
+    text-align: left;
+}
+
+#top-left p {
+    margin: 0;
+}
+
+#top-left .subtext {
+    color: #000000;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logofoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.logo-text {
+    text-align: left;
+}
+
+.logo {
+    color: #020202;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sublogo {
+    color: #020202;
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizando a barra de pesquisa */
+    flex-grow: 1;
+    padding-left: 20px; /* Adicionando espaço à esquerda da barra de pesquisa */
+    padding-right: 20px; /* Adicionando espaço à direita da barra de pesquisa */
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px; /* Reduzindo o tamanho máximo da barra de pesquisa */
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #020202;
+    font-size: 14px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #020202;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #fe7343;
+    color: #fff;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: #fe7343;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: 870px;
+    z-index: 1;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.circle img {
+    width: 100%; /* A largura da imagem será igual à largura do círculo */
+    height: 100%; /* A altura da imagem será igual à altura do círculo */
+    object-fit: contain; /* Ajusta a imagem para caber dentro do contêiner */
+}
+
+
+.energia{
+    width: 100px;
+    height: 100px;
+    background-color: #fe7343;
+    border-radius: 50%;
+    position: absolute;
+    right: 600px;
+    top: 830px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emagrecimento {
+    width: 100px;
+    height: 100px;
+    background-color: #fe7343;
+    border-radius: 50%;
+    position: absolute;
+    right: 900px;
+    top: 830px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.massa {
+    width: 100px;
+    height: 100px;
+    background-color: #fe7343;
+    border-radius: 50%;
+    position: absolute;
+    right: 1200px;
+    top: 830px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.energia,
+.emagrecimento,
+.massa {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens no início da bolinha */
+    z-index: 1;
+    object-fit: contain; /* Ajusta a imagem para caber dentro do contêiner */
+
+}
+
+
+
+.circle img,
+.energia img,
+.emagrecimento img,
+.massa img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#lgmusculo{
+    position: absolute;
+    right: 1230px;
+    top: 920px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#lgenergia{
+    position: absolute;
+    right: 620px;
+    top: 920px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#lgemagrecimento{
+    position: absolute;
+    right: 890px;
+    top: 920px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#pergunta{
+    position: absolute;
+    right: 840px;
+    top: 760px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
