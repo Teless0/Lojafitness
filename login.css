@@ -2,7 +2,7 @@ body {
     background-color: #f5f5f5;
     background-image: url('https://www.dmarge.com/wp-content/uploads/2024/01/Sam-Sulek-Featured-Image.jpg');
     background-size: cover;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -10,13 +10,12 @@ body {
 
 header {
     background-color: #fe7343;
-    padding: 5px; 
     position: relative;
 }
 
 .header-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1900px;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -39,7 +38,7 @@ header {
 }
 
 #top-left p {
-    margin: 0;
+    margin: 0px;
 }
 
 #top-left .subtext {
@@ -49,7 +48,7 @@ header {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
 }
 
 #logofoto {
@@ -60,7 +59,7 @@ header {
 
 .logo {
     color: #020202;
-    margin: 0;
+    margin: 0px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -81,10 +80,7 @@ header {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.login-container h2 {
-    text-align: center;
-    color: #000;
-}
+
 
 .login-form input[type="text"],
 .login-form input[type="password"] {
@@ -117,8 +113,7 @@ header {
     justify-content: space-between;
 }
 
-.button-group input[type="submit"],
-.button-group a {
+.button-group input[type="submit"] {
     padding: 5px;
     background-color: #d9d9d9;
     border: none;
@@ -127,15 +122,11 @@ header {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    flex: 1;
     margin: 10px 2px 0 2px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.button-group a {
-    line-height: 20px;
-}
 
 .create-account {
     padding: 10px;
@@ -146,7 +137,6 @@ header {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    flex: 1;
     margin: 10px 2px 0 2px;
     font-size: 16px;
     font-weight: bold;
@@ -184,22 +174,6 @@ header {
     background-color: #fe7343;
     z-index: -1;
 }
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-weight: bold;
-}
-
-#amor {
-    text-align: left;
-    font-size: 13px;
-    font-weight: bold;
-    margin-left: 20px;
-    color: #e5e5e5;
-}
-
 .circle {
     width: 60px;
     height: 60px;
@@ -207,7 +181,7 @@ footer {
     border-radius: 50%;
     position: absolute;
     right: 25px;
-    top: 480px;
+    top: 820px;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -218,4 +192,22 @@ footer {
     max-width: 100%;
     max-height: 100%;
 }
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+#amor {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #e5e5e5;
+}
+
+
+
 

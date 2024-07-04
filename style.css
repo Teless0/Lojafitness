@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fe7343; /* Cor laranja */
+  padding: 0;
+  height: 120px;
+  position: relative;
+  width: 100%;
+  top: 0; /* Mover o cabeçalho para o topo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bolder;
+  padding-right: 100px;
+}
+
+#top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  color: white; /* Certificar-se de que o texto seja visível sobre a barra laranja */
+  margin-left: 10px;
+  text-align: center; /* Centraliza o texto dentro da div logo-text */
+}
+
+.logofoto {
+  height: 100px; /* Ajustar conforme necessário */
+}
+
+.right-placeholder {
+  width: 200px; /* Placeholder width to match the left content width */
+}
+
+h1.logo {
+  font-size: 2rem; /* Ajustar conforme necessário */
+  margin: 0;
+  color: black;
+  font-weight: bolder;
+}
+
+h2.sublogo {
+  font-size: 1.5rem; /* Ajustar conforme necessário */
+  margin: 0;
+  color: black;
+  font-weight: bolder;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  color: rgb(0, 0, 0); 
+}
+
+.subtext {
+  font-size: 0.875rem;
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+
+main {
+  padding: 2rem;
+}
+
+main section {
+  margin-bottom: 2rem;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main li {
+  flex: 1 1 300px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+main li span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+main li a {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+main li p {
+  margin-top: auto;
+}
+
+
+footer {
+  background-color: #faf8f8;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main section ul {
+  margin-top: 10px; 
+}
+
+footer {
+  background-color: #fe7343;
+  padding: 20px 0;
+  border-top: 1px solid #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+

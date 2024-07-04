@@ -1,7 +1,7 @@
 body {
     background-color: #f5f5f5;
     background-size: cover;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0; 
     padding: 0;
     display: flex; 
@@ -47,15 +47,25 @@ header {
     position: absolute;
     height: 25px;
     align-items: center;
-    left: 740px;
+    left: 1050px;
     display: flex;
 
+}
+.entre{
+    position: absolute;
+    color: #020202;
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+    top: 20px;
+    display: flex;
+    left: 1095px;
 }
 .carro {
     position: absolute;
     height: 30px;
     align-items: center;
-    left: 900px;
+    left: 1185px;
     display: flex
 }
 
@@ -79,16 +89,6 @@ header {
     top: 35px;
     display: flex;
     left: 200px;
-}
-.entre{
-    position: absolute;
-    color: #020202;
-    margin: 0;
-    font-size: 17px;
-    font-weight: bold;
-    top: 20px;
-    display: flex;
-    left: 795px;
 }
 
 .search-bar {
@@ -150,7 +150,7 @@ header {
     text-align: center;
     align-items: center;
     height: 30px;
-    left: 320px;
+    left: 450px;
 }
 .lancamentoss{
     position: absolute;
@@ -162,7 +162,7 @@ header {
     text-align: center;
     align-items: center;
     height: 30px;
-    left: 420px;
+    left: 650px;
 }
 .wheyy{
     position: absolute;
@@ -174,7 +174,7 @@ header {
     text-align: center;
     align-items: center;
     height: 30px;
-    left: 570px;
+    left: 900px;
 }
 .creatinaa{
     position: absolute;
@@ -186,7 +186,7 @@ header {
     text-align: center;
     align-items: center;
     height: 30px;
-    left: 660px;
+    left: 1100px;
 }
 .treino{
     position: absolute;
@@ -198,7 +198,7 @@ header {
     text-align: center;
     align-items: center;
     height: 30px;
-    left: 770px;
+    left: 1300px;
 }
 .roupaa{
     position: absolute;
@@ -210,14 +210,15 @@ header {
     text-align: center;
     align-items: center;
     height: 30px;
-    left: 890px;
+    left: 1500px;
 }
 .ramon{
     position: absolute;
     display: flex;
     margin: 0;
     top: 90px;
-    width: 1312px;
+    width: 100%;
+    height: 500px;
     padding: 0;
 
 }
@@ -230,7 +231,7 @@ header {
     left: 0px;
     right: 0px;
     width: 50%;
-    height: 330px;
+    height: 450px;
     object-fit: cover;
 
 }
@@ -242,11 +243,85 @@ header {
     padding: 0;
     right: 0px;
     width: 50%;
-    height: 330px;
+    height: 450px;
     object-fit: cover;
 
 }
 
+#informacoes{
+    position: absolute;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    top: 540px;
+    padding: 0;
+    background-color: gray;
+    height: 80px;
+}
+#fret{
+    position: absolute;
+    display: flex;
+    left: 250px;
+    font-weight: bold;
+}
+#valor{
+    position: absolute;
+    display: flex;
+    left: 250px;
+    top: 30px;
+    font-size: 13px;
+}
+#lanca{
+    position: absolute;
+    display: flex;
+    left: 900px;
+    font-weight: bold;
+}
+#noti{
+    position: absolute;
+    display: flex;
+    left: 900px;
+    top: 30px;
+    font-size: 13px;
+}
+#forma{
+    position: absolute;
+    display: flex;
+    right: 250px;
+    font-weight: bold
+
+}
+#pagamento{
+    position: absolute;
+    display: flex;
+    right: 298px;
+    top: 30px;
+    font-size: 13px;
+}
+#caminhao{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    left: 190px;
+    top: 10px;
+}
+#exclama{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    left: 835px;
+    top: 10px;
+}
+#divida{
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    right: 430px;
+    top: 6px;
+}
 .circle {
     width: 70px;
     height: 70px;
@@ -254,7 +329,7 @@ header {
     border-radius: 50%;
     position: absolute;
     right: 50px;
-    top: 510px;
+    top: 890px;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -266,8 +341,8 @@ header {
     background-color: #fe7343;
     border-radius: 50%;
     position: absolute;
-    right: 450px;
-    top: 480px;
+    right: 1200px;
+    top: 790px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -279,8 +354,8 @@ header {
     background-color: #fe7343;
     border-radius: 50%;
     position: absolute;
-    right: 650px;
-    top: 480px;
+    right: 920px;
+    top: 790px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,8 +367,8 @@ header {
     background-color: #fe7343;
     border-radius: 50%;
     position: absolute;
-    right: 850px;
-    top: 480px;
+    right: 600px;
+    top: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,10 +378,8 @@ header {
 .emagrecimento,
 .massa {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Alinha os itens no início da bolinha */
-    z-index: 1;
-    object-fit: contain; /* Ajusta a imagem para caber dentro do contêiner */
+    align-items: center; 
+    object-fit: contain; 
 
 }
 
@@ -319,21 +392,20 @@ header {
     max-width: 100%;
     max-height: 100%;
 }
-#lgmusculo{
+#lgenergia{
     position: absolute;
-    right: 470px;
-    top: 560px;
-    z-index: 1;
+    right: 1220px;
+    top: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
 }
 
-#lgenergia{
+#lgmusculo{
     position: absolute;
-    right: 870px;
-    top: 560px;
+    right: 620px;
+    top: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -341,8 +413,8 @@ header {
 }
 #lgemagrecimento{
     position: absolute;
-    right: 635px;
-    top: 560px;
+    right: 900px;
+    top: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,8 +422,8 @@ header {
 }
 #pergunta{
     position: absolute;
-    right: 580px;
-    top: 400px;
+    right: 850px;
+    top: 700px;
     display: flex;
     justify-content: center;
     align-items: center;

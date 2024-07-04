@@ -1,0 +1,128 @@
+
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* cabeçalho laranja */
+header {
+    background-color: #FE7343;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 94px;
+    padding: 0px 160px;
+}
+
+/*barra de pesquisa, e barra amarela no topo */ 
+
+input {
+    height: 54px;
+    width: 399px;
+    border-radius: 5px;
+    font-size: 1.4em;
+}
+/*--l--*/
+#entrar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#img-entrar{
+    margin-right: 150px;
+}
+
+#carrinho {
+    margin-right: 100px;
+}
+/* parte do nav, abaixo do cabeçalho  */
+.menu {
+    background-color: #020202;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* a tag pra inserir links, aplicado a todos os textos com links */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /*negrito*/
+    font-size: 1.2em;
+}
+
+.banner {
+    background-color: #D9D9D9;
+    height: 259px;
+    width: 1258px;
+    display: flex;
+    margin: 50px auto 0 auto;
+    font-weight: bold;
+}
+
+/* aplica atributos especificos para a img dentro de banner */
+.banner img {
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+p {
+    font-weight: bold;  /*negrito*/
+    font-size: 1.5em;
+}
+
+#avisos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px auto 0 auto;
+    width: 1258px;
+}
+
+/*essa classe e para a sessao de produtos*/
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1081px;
+    margin: 60px auto 300px auto;
+}
+
+.produtos img {
+    height: 333px;
+    width: auto;
+}
+/* tag do botao */
+button {
+    display: block;
+    background-color: #D9D9D9;
+    width: 128px;
+    height: 40px;
+    border-radius: 8px; /*bordinha do botao*/
+    border-style: none;
+    font-weight: bold;
+}
+
+/*pseudo-classe para mudar o botão sob o movimento do mouse*/
+button:hover {
+    background-color: #d9d9d98c;
+}
+
+footer {
+    background-color: orange;
+    height: 94px;
+    font-weight: bold;
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+}
